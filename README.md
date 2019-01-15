@@ -12,5 +12,3 @@ The app lets the user to guess letter for 10 times as it'll prompt the user to c
 Here's an example for the application in the figures below:
 
 ![App Example1](./assets/images/example1.png)
-![App Example2](./assets/images/example2.png)
-![App Example3](./assets/images/example3.png)
