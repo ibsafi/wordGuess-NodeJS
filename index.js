@@ -29,25 +29,25 @@ function askUser(){
 
             if( playing_word.is_revealed === true ){
                 //The user got the word guessed successfully
-                console.log("\n" + playing_word.revealed_word + "\n");
-                console.log("\nPerfect! You guessed the complete word!\n");
+                console.log("\n" + playing_word.revealed_word + "");
+                console.log("\nPerfect! You guessed the complete word!");
 
                 //Generate new word
                 playing_word = new Word(select_new_word());
-                console.log("\nNew Word Generated!\n");
+                console.log("\nNew Word Generated!");
             }else{
                 if( before === playing_word.revealed_word){
                     //wrong guess
                     if(available_guesses > 0){
                         //there is enough tries for the user to guess
-                        console.log("\nWrong Guess!\n");
+                        console.log("\nWrong Guess!");
 
                         //Reduce one guess of available_guesses
                         available_guesses--;
-                        console.log("\nRemaining Guesses: " + available_guesses + "\n");
+                        console.log("\nRemaining Guesses: " + available_guesses + "");
                     }else{
                         //GameOver
-                        console.log("\nGame Over\n");
+                        console.log("\nGame Over");
                         available_guesses--;
 
                         //ask user for retry!
@@ -64,7 +64,7 @@ function askUser(){
                                 
                                 //Generate new word
                                 playing_word = new Word(select_new_word());
-                                console.log("\nNew Word Generated!\n");
+                                console.log("\nNew Word Generated!");
                                 askUser();
                             }else{
                                 console.log( "Good Bye!" );
@@ -74,11 +74,11 @@ function askUser(){
                     }
                 }else{
                     //correct guess
-                    console.log("\nRight Guess!\n");
+                    console.log("\nRight Guess!");
                 }
             }
         }else{
-            console.log("\nPlease enter a valid input!\n");
+            console.log("\nPlease enter a valid input!");
         }
         if( available_guesses >= 0){
             askUser();
