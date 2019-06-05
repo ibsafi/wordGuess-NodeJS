@@ -10,9 +10,6 @@ In this assignment Word Guess command-line game using constructor functions.
 The app lets the user to guess letter for 10 times as it'll prompt the user to continue of end the game these tries had consumed.
 
 Here's an example for the application in the figures below:
-*[1]
 ![App Example1](./assets/images/example1.png)
-*[2]
 ![App Example2](./assets/images/example2.png)
-*[3]
 ![App Example3](./assets/images/example3.png)
