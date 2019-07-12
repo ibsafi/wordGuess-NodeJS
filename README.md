@@ -12,12 +12,7 @@ This app requires this node package: `inquirer`.
 * The app lets the user to guess 10 wrong letters times and then asks to restart or end the game.
 
 ## Screenshots:
-
 Here's some shots playing with the game:
 
-<br/>
 ![App Example1](./images/example1.png)
-<br/>
-![App Example2](./images/example2.png)
-<br/>
-![App Example3](./images/example3.png)
+
