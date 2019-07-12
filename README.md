@@ -1,23 +1,23 @@
 # WordGuess Using NodeJS
 
-### Overview
+## Overview
+This application is a Word Guessing game using NodeJS with Command Line Interface (CLI) and constructor functions.
 
-In this assignment Word Guess command-line game using constructor functions.
+## Project Dependencies:
+This app requires this node package: `inquirer`.
 
-### Usage of the Script
-*This assignment uses `inquirer` library as it must to have three seperate files (`word`, `letter` and `index`). both `word` and `letter` file are constructors
+## Basic Usage:
+* The app runs by navigating into the directory of the app folder, and then type the command  `node index.js` in the command line terminal. As both `word` and `letter` are constructor files.
 
-The app lets the user to guess letter for 10 times as it'll prompt the user to continue of end the game these tries had consumed.
+* The app lets the user to guess 10 wrong letters times and then asks to restart or end the game.
 
-Here's an example for the application in the figures below:
-<<<<<<< HEAD
-![App Example1](./assets/images/example1.png)
-![App Example2](./assets/images/example2.png)
-=======
+## Screenshots:
+
+Here's some shots playing with the game:
+
 <br/>
-![App Example1](./assets/images/example1.png)
+![App Example1](./images/example1.png)
 <br/>
-![App Example2](./assets/images/example2.png)
+![App Example2](./images/example2.png)
 <br/>
->>>>>>> 0e78129a1a410ed1d0ed1b2bd5f1ead25483f08f
-![App Example3](./assets/images/example3.png)
+![App Example3](./images/example3.png)
