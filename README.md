@@ -15,4 +15,7 @@ This app requires this node package: `inquirer`.
 Here's some shots playing with the game:
 
 ![App Example1](./images/example1.png)
-
+<br/>
+![App Example2](./images/example2.png)
+<br/>
+![App Example3](./images/example3.png)
